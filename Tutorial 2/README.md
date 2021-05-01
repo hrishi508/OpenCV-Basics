@@ -4,7 +4,9 @@ This tutorial introduces color histograms. In context of images, histograms can 
 A histogram represents the distribution of colors in an image. 
 It can be visualized as a graph (or plot) that gives a high-level intuition of the intensity (pixel value) distribution. 
 We are going to assume a RGB color space in this example, so these pixel values will be in the range of 0 to 255. 
-If you are working in a different color space, the pixel range may be different.
+If you are working in a different color space, the pixel range may be different.  
+
+Comparing the “similarity” of color histograms can be done using a distance metric. Common choices include: Euclidean, correlation, Chi-squared, intersection, and Bhattacharyya.  
     
 When plotting the histogram, the X-axis serves as our “bins”. 
 If we construct a histogram with 256 bins, then we are effectively counting the number of times each pixel value occurs. 
