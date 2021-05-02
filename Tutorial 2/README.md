@@ -23,4 +23,9 @@ mask - a mask is a uint8 image with the same shape as our original image, where 
   
 histSize - This is the number of bins we want to use when computing a histogram. Again, this is a list, one for each channel we are computing a histogram for.
   
-ranges - The range of possible pixel values. Normally, this is [0, 256] for each channel, but if you are using a color space other than RGB (such as HSV), the ranges might be different.    
+ranges - The range of possible pixel values. Normally, this is [0, 256] for each channel, but if you are using a color space other than RGB (such as HSV), the ranges might be different.
+  
+## Reference
+This tutorial was based on the following blog from PyImageSearch:
+  
+Adrian Rosebrock, Clever Girl: A Guide to Utilizing Color Histograms for Computer Vision and Image Search Engines, PyImageSearch, https://www.pyimagesearch.com/2014/01/22/clever-girl-a-guide-to-utilizing-color-histograms-for-computer-vision-and-image-search-engines/, accessed on 1 May 2021
